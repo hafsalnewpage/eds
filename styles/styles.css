@@ -210,5 +210,9 @@ main .section.highlight {
 }
 
 #blogs-landing-page {
-    background-color: #F6931D;
+    background-color: #005E5A;
+}
+
+#blogs-landing-page u {
+    color: #FFFFFF;
 }
