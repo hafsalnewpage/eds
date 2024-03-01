@@ -1,9 +1,18 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 26-Feb-2024, 1:12:27 pm
-    Author     : hafsal
-*/
+.myblogs table {
+    width: 100%;
+}
 
+.myblogs table tr {
+    text-align: center;
+    padding-bottom: 4px;
+    border-bottom: solid 1px #eee;
+}
+
+#blogs-landing-page {
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #005E5A;
+}

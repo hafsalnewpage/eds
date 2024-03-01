@@ -3,7 +3,8 @@ main .form {
   padding: var(--spacing-s);
   border-radius: var(--card-border-radius-l);
   filter: var(--image-filter-drop-shadow-small);
-  border: solid 1px grey;
+  margin:auto;
+  width: 50%;
 }
 
 main .form h2 {
@@ -12,7 +13,7 @@ main .form h2 {
 }
 
 main .form h3 {
-  padding-top: var(--spacing-s);
+  padding-top: 5px;
   font-size: var(--type-heading-m-size);
 }
 
@@ -36,7 +37,7 @@ main .form textarea {
 
 main .form input:hover,
 main .form select:hover {
-  border-color: var(--color-font-grey);
+  border-color: grey;
 }
 
 main .form label {
@@ -54,7 +55,7 @@ main .form label.required::after {
 }
 
 main .form .field-wrapper {
-  margin-bottom: var(--spacing-m);
+  margin-bottom: 10px;
 }
 
 main .form .form-checkbox-wrapper {
@@ -115,6 +116,10 @@ main .form button {
   font-family: var(--body-font-family);
 }
 
+#registration {
+    text-align: center;
+    margin-bottom: 50px;
+}
 @media screen and (min-width: 900px) {
   main .form {
     padding: var(--spacing-ml);
