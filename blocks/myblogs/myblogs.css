@@ -25,7 +25,7 @@ tr:nth-child(even) {
 tr:first-child { 
     color: #f6931d;
     text-align: center;
-}; 
+}
 
 #blogs-landing-page {
     padding: 10px;
